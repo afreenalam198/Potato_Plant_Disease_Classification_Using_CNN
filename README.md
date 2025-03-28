@@ -64,6 +64,13 @@ A six layer Convolutional Neural Network (CNN) model was developed for image cla
 * **Loss Function:** `SparseCategoricalCrossEntropy` was used. This loss function is suitable for multi-class classification problems where the labels are provided as integer indices.
 * **Evaluation Metrics:** The model's performance was evaluated using `loss` and `accuracy`.
 
+## Model Performance
+* **Accuracy:** The percentage of correctly classified images.
+* **Precision:** For each class, the proportion of correctly predicted instances out of all instances predicted as that class.
+* **Recall:** For each class, the proportion of correctly predicted instances out of all actual instances of that class.
+* **F1-Score:** The harmonic mean of precision and recall, providing a balanced measure of performance.
+* **Confusion Matrix:** A table showing the counts of true positives, true negatives, false positives, and false negatives for each class, which helps in understanding the model's errors.
+
 ## Model Saving
 
 The trained model was saved for later deployment and use in the backend application.
