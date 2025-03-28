@@ -65,11 +65,8 @@ A six layer Convolutional Neural Network (CNN) model was developed for image cla
 * **Evaluation Metrics:** The model's performance was evaluated using `loss` and `accuracy`.
 
 ## Model Performance
-* **Accuracy:** The percentage of correctly classified images.
-* **Precision:** For each class, the proportion of correctly predicted instances out of all instances predicted as that class.
-* **Recall:** For each class, the proportion of correctly predicted instances out of all actual instances of that class.
-* **F1-Score:** The harmonic mean of precision and recall, providing a balanced measure of performance.
-* **Confusion Matrix:** A table showing the counts of true positives, true negatives, false positives, and false negatives for each class, which helps in understanding the model's errors.
+* **Accuracy:** 0.96484375
+* **Loss:** 0.10136152
 
 ## Model Saving
 
@@ -92,3 +89,24 @@ The frontend of the applciation was built using React JS to allow users to uploa
 * **Dependencies:** Necessary libraries for FastAPI and model serving were installed.
 * **File Upload and Processing:** A Python script was created to handle file uploads, preprocess the uploaded image, and pass it to the trained model for prediction.
 * **API Testing:** Postman was used to test the API endpoints and ensure they were functioning correctly.
+
+## Technology Stack 
+
+The project utilizes the following technologies:
+
+* **Programming Languages:**
+    * Python (for model development and backend)
+    * JavaScript (for the frontend)
+* **Deep Learning Framework:** TensorFlow/Keras (for building and training the CNN model)
+* **Backend Framework:** FastAPI (for creating the API to serve the model)
+* **Web Development (Frontend):** ReactJS
+* **Data Science Libraries:**
+    * NumPy (for numerical operations)
+    * Pandas (for data manipulation)
+    * OpenCV (for image processing)
+    * Scikit-learn (for data splitting and evaluation)
+* **Tools:**
+    * Kaggle (for dataset acquisition)
+    * Postman (for API testing)
+    * Git (for version control)
+    * Virtual Environments (for dependency management)
