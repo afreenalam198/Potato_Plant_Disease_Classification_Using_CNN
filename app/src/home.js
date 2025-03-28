@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { makeStyles } from "@material-ui/core/styles"; // Removed withStyles
+import { makeStyles } from "@material-ui/core/styles"; 
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
@@ -12,7 +12,7 @@ import { Paper, CardActionArea, CardMedia, Grid, TableContainer, Table, TableBod
 import cblogo from "./cblogo.PNG";
 import image from "./bg.png";
 import { DropzoneArea } from 'material-ui-dropzone';
-// Removed import { common } from '@material-ui/core/colors';
+
 import ClearIcon from '@material-ui/icons/Clear'; // Use ClearIcon instead of Clear
 
 const useStyles = makeStyles((theme) => ({
