@@ -19,7 +19,7 @@ The project followed these steps to build the application:
 
 1.  **Collect Data:** Gathered a dataset of potato plant images, including healthy plants and those affected by Early Blight and Late Blight.
 2.  **Data Cleaning and Preprocessing:** Prepared the collected data for model training, including resizing and normalizing images.
-3.  **Model Building:** Developed a CNN model suitable for image classification.
+3.  **Model Building:** Developed a CNN model for image classification.
 4.  **ML Ops to serve the models (tf serving and Fast API):** Implemented a backend using FastAPI to serve the trained model for predictions.
 5.  **Build the frontend for user interaction (using react JS):** Implemented a frontend using react JS where users can upload image of a potato plant for classification.
 
