@@ -47,11 +47,11 @@ The dataset was split into training, validation, and testing sets as follows:
 
 ## Data Processing
 
-Data augmentation techniques were applied to the training data to improve the model's generalization ability. This involved techniques such as rotation, zooming, flipping, etc.
+Data augmentation techniques were applied to the training data to improve the model's generalization ability. This involved the following techniques - flipping, rotation and contrast.
 
 ## Model Architecture
 
-A simple Convolutional Neural Network (CNN) model was developed for image classification. The architecture included:
+A six layer Convolutional Neural Network (CNN) model was developed for image classification. The architecture included:
 
 * **Input Layer:** To receive the image data.
 * **Data Preprocessing Layer:** Resizing and rescaling the input images to a suitable format for the CNN.
